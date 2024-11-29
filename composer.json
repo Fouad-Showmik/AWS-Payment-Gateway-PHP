@@ -1,0 +1,47 @@
+{
+    "name": "user/payfort-payment-process",
+    "description": "A PHP project for integrating Payfort payment processing.",
+    "authors": [
+        {
+            "name": "Fouad",
+            "email": "mutasim.fouad.showmik@example.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.0",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Seldaek/monolog"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "smarty/smarty",
+                "version": "3.1.7",
+                "dist": {
+                    "url": "https://www.smarty.net/files/Smarty-3.1.7.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://smarty-php.googlecode.com/svn/",
+                    "type": "svn",
+                    "reference": "tags/Smarty_3_1_7/distribution/"
+                }
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
